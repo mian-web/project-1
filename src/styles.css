@@ -1,0 +1,89 @@
+.app {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url(https://i.imgur.com/ZO9tL88.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .card {
+    width: 250px;
+    background: #cac4c4;
+    border-radius: 16px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+  }
+  
+  .card-price {
+    color: #046619;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  /* Button */
+  .buy-button {
+    display: block;
+    width: 100%;
+    margin-top: 0.8rem;
+    padding: 0.6rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #1d4ed8;
+  }
+
+  h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 69, 69);
+  }
